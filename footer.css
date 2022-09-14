@@ -1,0 +1,66 @@
+.footer-container{
+
+    display: flex;
+    background-color: rgb(54, 52, 52);
+    padding: 1rem 0 4rem 0;
+    padding-bottom: 4rem;
+    position: relative;
+    top: 0;
+    bottom: 0;
+
+
+}
+
+.footer{
+    flex-direction: row;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    
+
+    
+
+
+}
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    
+    
+}
+
+.footer-heading a{
+    text-decoration: none;
+    color: white;
+}
+.footer-heading a:hover{
+    color: crimson;
+    transition: 2.3s ease-out;
+}
+.footer-email-form h2{
+    margin-bottom: 2rem;
+}
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background-color: crimson;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+

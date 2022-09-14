@@ -1,0 +1,106 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .shipswap-section {
+        width: 100%;
+        height: 150%;
+        background-color: rgb(19, 19, 19);
+    }
+    /* .my-img-box {
+        width: 100%;
+        height: 70%;
+        background-color: blue;
+        margin: 0;
+    } */
+    
+    .my-img-box img {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        background-color: transparent;
+        box-shadow: 0px .00000001px 50000px rgba(249, 186, 61, 0.5);
+    }
+    
+    .register-btn {
+        font-size: 1.1em;
+        font-weight: normal;
+        background-color: black;
+        color: white;
+        border: .5px solid rgb(213, 139, 0);
+        padding: .45em .75em;
+        margin: auto;
+        width: 30%;
+        height: 50px;
+    }
+    
+    .card-for-display {
+        background-color: #17161b;
+        width: 90%;
+        height: 150px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    
+    .onboard-button button {
+        width: 100%;
+        height: 50px;
+        padding: 0 1.5em;
+    }
+    
+    @media(max-width:1200px) {
+        .card-for-display {
+            width: 90%;
+            height: 150px;
+        }
+        .mybox-for-level {
+            display: block !important;
+        }
+        .onboard-button button {
+            width: 50%;
+            height: 50px;
+            padding: 0 1em;
+            margin: auto;
+            margin-left: 25%;
+        }
+    }
+    
+    @media(max-width:800px) {
+        .card-for-display {
+            width: 90%;
+            height: 150px;
+        }
+        .onboard-button button {
+            width: 30%;
+            height: 50px;
+            padding: 0 1em;
+            margin: auto;
+            margin-left: 32%;
+        }
+        .mybox-for-level {
+            width: 90%;
+            margin: auto;
+            margin-left: 10%;
+        }
+        .my-img-box img {
+            width: 60%;
+            margin: auto;
+            margin-left: 20%;
+        }
+    }
+    
+    @media(max-width:700px) {
+        .onboard-button button {
+            width: 50%;
+            margin-left: 20%;
+        }
+        .my-img-box img {
+            width: 60%;
+            margin: auto;
+            margin-left: 20%;
+        }
+    }
